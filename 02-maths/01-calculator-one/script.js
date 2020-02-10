@@ -13,18 +13,30 @@
     // to get the value of an input: document.getElementById("element-id").value
 
     document.getElementById("addition").addEventListener("click", () => {
-        // perform an addition
+        var PremierNbre = parseFloat(document.getElementById("op-one").value);
+        var DeuxiemeNbre = parseFloat(document.getElementById("op-two").value);
+        Resultat = PremierNbre + DeuxiemeNbre;
+        alert("La réponse est " + Resultat);
     });
 
     document.getElementById("substraction").addEventListener("click", () => {
-        // perform an substraction
+        var PremierNbre = parseFloat(document.getElementById("op-one").value);
+        var DeuxiemeNbre = parseFloat(document.getElementById("op-two").value);
+        Resultat = PremierNbre - DeuxiemeNbre;
+        alert("La réponse est " + Resultat);
     });
 
     document.getElementById("multiplication").addEventListener("click", () => {
-        // perform an multiplication
+        var PremierNbre = parseFloat(document.getElementById("op-one").value);
+        var DeuxiemeNbre = parseFloat(document.getElementById("op-two").value);
+        Resultat = PremierNbre * DeuxiemeNbre;
+        alert("La réponse est " + Resultat);
     });
 
     document.getElementById("division").addEventListener("click", () => {
-        // perform an division
+        var PremierNbre = parseFloat(document.getElementById("op-one").value);
+        var DeuxiemeNbre = parseFloat(document.getElementById("op-two").value);
+        Resultat = PremierNbre / DeuxiemeNbre;
+        alert("La réponse est " + Resultat);
     });
 })();
